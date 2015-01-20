@@ -12,8 +12,8 @@ Shaun Gehrke's Development Plan
 ## Update Files
 
 ##### Make change to file
-	1. git add -A
-	2. git commit -m “detailed update note”
+	* git add -A
+	* git commit -m “detailed update note”
 
 ### Promote to Staging
 	* $ git push staging 
@@ -25,3 +25,4 @@ Shaun Gehrke's Development Plan
 ### Promote to Production
 * Have other users try it out prior to going live in production
 * If no issues are present promote to Production server
+	* git push LiveServer master
